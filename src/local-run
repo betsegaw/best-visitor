@@ -1,0 +1,5 @@
+docker stop running-best-visitor-server
+docker rm running-best-visitor-server
+
+docker build -t best-visitor-server .
+docker run -it -p 8080:8080 --link best-visitor-db:best-visitor-db --rm --name running-best-visitor-server best-visitor-server

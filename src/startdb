@@ -1,0 +1,2 @@
+docker run -p 27017:27017 -v $(pwd)/../data/db:/data/db --name best-visitor-db mongo
+docker start best-visitor-db

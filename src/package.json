@@ -1,0 +1,17 @@
+{
+  "name": "best-visitor-server",
+  "version": "0.0.1",
+  "description": "Server backend for best-visitor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --debug index.js"
+  },
+  "keywords": [
+    "best-visitor"
+  ],
+  "author": "Betsegaw Tadele",
+  "dependencies": {
+    "mongodb": "^2.0.46",
+    "monk": "^1.0.1"
+  }
+}

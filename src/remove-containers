@@ -1,0 +1,4 @@
+docker stop best-visitor-db
+docker stop running-best-visitor-server
+docker rm best-visitor-db
+docker rm running-best-visitor-server
